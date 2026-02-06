@@ -13,7 +13,7 @@ const skillGroups = [
   },
   {
     label: 'Databases',
-    items: ['MongoDB', 'Mongoose (ODM)'],
+    items: ['MongoDB', 'Mongoose (ODM)' ,'SQL'],
   },
   {
     label: 'Tools & Platforms',
