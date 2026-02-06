@@ -2,6 +2,10 @@ import { motion } from 'framer-motion'
 import Section from '../Section/Section'
 import './Hero.css'
 
+// Change this to the URL where your printable/downloadable resume is hosted
+// Example: Google Drive share link, Netlify PDF, etc.
+const PRINT_RESUME_URL = 'https://drive.google.com/drive/folders/174EvEOKOtL8AKKF_kF2La-2Bp8TGVG1Y?usp=drive_link'
+
 export default function Hero({ id, onInView }) {
   return (
     <Section id={id} onInView={onInView}>
@@ -49,7 +53,7 @@ export default function Hero({ id, onInView }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Software Developer 
+            Full Stack Developer · MERN · React.js
           </motion.p>
           <motion.p
             className="hero-edu"
@@ -102,6 +106,14 @@ export default function Hero({ id, onInView }) {
           >
             <a href="#projects" className="link-button">
               View Projects
+            </a>
+            <a
+              href={PRINT_RESUME_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-button outline"
+            >
+              Print / Download Resume
             </a>
             <a href="#contact" className="link-button outline">
               Get in Touch
