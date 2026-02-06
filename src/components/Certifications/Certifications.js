@@ -2,6 +2,11 @@ import { motion } from 'framer-motion'
 import Section from '../Section/Section'
 import './Certifications.css'
 
+// Link that opens when the user clicks the "View all" button
+// (e.g. a Google Drive folder with all certificates or a Notion page).
+const VIEW_ALL_CERTS_URL = 'https://drive.google.com/drive/folders/1Q8czwoqzZ4gySJ8D7WVDMg6f5GMWmhrT?usp=sharing'
+
+
 // Add or update the `url` for each certification.
 // When a user clicks the certification text, it will open this link.
 const certifications = [
