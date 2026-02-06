@@ -15,8 +15,11 @@ function jsxInJs() {
         sourcefile: id,
         format: 'esm',
         jsx: 'automatic',
+        sourcemap: false,
       })
-      return { code: result.code, map: result.map }
+      // Only return transformed code. Returning an invalid / empty source map
+      // string can cause JSON parse errors during the Rollup build step.
+      return { code: result.code }
     },
   }
 }
