@@ -1,0 +1,44 @@
+.contact-card {
+  max-width: 560px;
+}
+
+.contact-intro {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0;
+  color: var(--text-primary);
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-link:hover {
+  color: var(--accent);
+  background: rgba(14, 165, 233, 0.08);
+}
+
+.contact-link-icon {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.contact-dob {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activity-card .card-description {
+  margin-top: 0.25rem;
+}

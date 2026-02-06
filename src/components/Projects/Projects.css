@@ -1,0 +1,13 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card .card-title {
+  margin-bottom: 0.75rem;
+}
+
+.project-card ul {
+  margin-top: 0;
+}
