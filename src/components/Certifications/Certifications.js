@@ -7,32 +7,32 @@ import './Certifications.css'
 const certifications = [
   {
     label: 'Frontend for Java Full Stack Development – Board Infinity (Coursera)',
-    url: 'https://your-link-for-frontend-java-fullstack.com',
+    url: 'https://drive.google.com/file/d/1T3veVjDUI67R6UuUkdC3QDRrHUp4sABf/view?usp=sharing',
   },
   {
     label: 'Foundations of Cybersecurity – Google (Coursera)',
-    url: 'https://your-link-for-foundations-of-cybersecurity.com',
+    url: 'https://drive.google.com/file/d/1XvHV9ruCWyGPLTWSuX72nEjk5_Cgmen4/view?usp=sharing ',
   },
   {
     label: 'Ethical Hacking Essentials (EHE) – EC Council (Coursera)',
-    url: 'https://your-link-for-ethical-hacking-essentials.com',
+    url: 'https://drive.google.com/file/d/14JeubRUkVKkCAwmkWJBB1gebI2zeW_Nx/view?usp=sharing',
   },
   {
     label: 'Connect and Protect: Networks and Network Security – Coursera',
-    url: 'https://your-link-for-connect-and-protect.com',
+    url: 'https://drive.google.com/file/d/1KNzl2W7I21E7PgPC4kfsE4Bg_NmBiO4Z/view?usp=sharing',
   },
   {
     label: 'Tools of the Trade: Linux and SQL – Google (Coursera)',
-    url: 'https://your-link-for-linux-and-sql.com',
+    url: 'https://drive.google.com/file/d/1NRZdeb79jaizPVrN-mEk9febmSfhIB8J/view?usp=sharing',
   },
   {
     label: 'Assets, Threats, and Vulnerabilities – Google (Coursera)',
-    url: 'https://your-link-for-assets-threats-vulnerabilities.com',
+    url: 'https://drive.google.com/file/d/1rdvlw3l70RaH8CS_QZ40nZTSt1BFM_cy/view?usp=sharing',
   },
   {
     label:
       'MERN Stack Internship – Dregali Pvt. Ltd. (Full-stack e-commerce: MongoDB, Express.js, React.js, Node.js)',
-    url: 'https://your-link-for-mern-stack-internship-certificate.com',
+    url: 'https://drive.google.com/file/d/1ISCuQa9lVfzNnzNa5m3MghPakx8wxbjY/view?usp=sharing',
   },
 ]
 
