@@ -28,8 +28,15 @@
   font-weight: 700;
 }
 
-.cert-item span:last-child {
+.cert-link {
   color: var(--text-secondary);
   font-size: 0.95rem;
   line-height: 1.5;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.cert-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }
