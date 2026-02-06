@@ -2,14 +2,38 @@ import { motion } from 'framer-motion'
 import Section from '../Section/Section'
 import './Certifications.css'
 
+// Add or update the `url` for each certification.
+// When a user clicks the certification text, it will open this link.
 const certifications = [
-  'Frontend for Java Full Stack Development – Board Infinity (Coursera)',
-  'Foundations of Cybersecurity – Google (Coursera)',
-  'Ethical Hacking Essentials (EHE) – EC Council (Coursera)',
-  'Connect and Protect: Networks and Network Security – Coursera',
-  'Tools of the Trade: Linux and SQL – Google (Coursera)',
-  'Assets, Threats, and Vulnerabilities – Google (Coursera)',
-  'MERN Stack Internship – Dregali Pvt. Ltd. (Full-stack e-commerce: MongoDB, Express.js, React.js, Node.js)',
+  {
+    label: 'Frontend for Java Full Stack Development – Board Infinity (Coursera)',
+    url: 'https://your-link-for-frontend-java-fullstack.com',
+  },
+  {
+    label: 'Foundations of Cybersecurity – Google (Coursera)',
+    url: 'https://your-link-for-foundations-of-cybersecurity.com',
+  },
+  {
+    label: 'Ethical Hacking Essentials (EHE) – EC Council (Coursera)',
+    url: 'https://your-link-for-ethical-hacking-essentials.com',
+  },
+  {
+    label: 'Connect and Protect: Networks and Network Security – Coursera',
+    url: 'https://your-link-for-connect-and-protect.com',
+  },
+  {
+    label: 'Tools of the Trade: Linux and SQL – Google (Coursera)',
+    url: 'https://your-link-for-linux-and-sql.com',
+  },
+  {
+    label: 'Assets, Threats, and Vulnerabilities – Google (Coursera)',
+    url: 'https://your-link-for-assets-threats-vulnerabilities.com',
+  },
+  {
+    label:
+      'MERN Stack Internship – Dregali Pvt. Ltd. (Full-stack e-commerce: MongoDB, Express.js, React.js, Node.js)',
+    url: 'https://your-link-for-mern-stack-internship-certificate.com',
+  },
 ]
 
 export default function Certifications({ id, onInView }) {
@@ -33,7 +57,14 @@ export default function Certifications({ id, onInView }) {
             transition={{ duration: 0.3, delay: i * 0.05 }}
           >
             <span className="cert-icon">✓</span>
-            <span>{cert}</span>
+            <a
+              href={cert.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cert-link"
+            >
+              {cert.label}
+            </a>
           </motion.li>
         ))}
       </motion.ul>
