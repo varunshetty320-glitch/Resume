@@ -53,7 +53,7 @@ export default function Hero({ id, onInView }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Full Stack Developer · MERN · React.js
+            Software Developer 
           </motion.p>
           <motion.p
             className="hero-edu"
